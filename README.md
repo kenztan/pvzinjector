@@ -23,8 +23,10 @@ Simply build the script and run the game.
 ## Build
 
 ### Windows (Visual Studio)
-Compile as a standard Win32 console application with Unicode enabled.
-
-### Mac (cross-compile)
+1. First, Run this command
 ```bash
-x86_64-w64-mingw32-g++ cheat.cpp -o cheat.exe -DUNICODE -D_UNICODE
+git clone https://github.com/kenztan/pvzinjector.git
+cd pvzinjector
+```
+2. Open your Visual Studio 2022 and open `pvzinjector` folder
+3. Simply press the Run button or press `CTRL+F5`
